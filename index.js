@@ -11,3 +11,15 @@ const newer=document.createElement('p')
 newer.textContent='This is my paragraph when am working on Dom manupulation events and communicating with the server'
 todo.appendChild(newer)
 
+const text=document.getElementById('inputField')
+const btn=document.getElementById('btn')
+btn.addEventListener('click',(e)=>{
+    e.preventDefault()
+    const newest=document.createElement('p')
+    newest.textContent=text.value
+    todo.appendChild(newest)
+    
+    text.value=''
+
+})
+
