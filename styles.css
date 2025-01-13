@@ -1,0 +1,67 @@
+/* styles.css */
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+}
+
+/* Styling for the main heading */
+h1 {
+    color: #4CAF50; /* Green color */
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-bottom: 2px solid #ddd;
+    margin: 0;
+}
+
+/* Container for the todo list */
+#todo {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the input field */
+#inputField {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Styling for the Add Task button */
+#btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+/* Button hover effect */
+#btn:hover {
+    background-color: #45a049;
+}
+
+/* Styling for each task paragraph */
+#todo p {
+    background-color: #f4f4f4;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+    border-left: 5px solid #4CAF50;
+    text-align: left;
+}
