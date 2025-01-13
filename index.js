@@ -20,6 +20,16 @@ btn.addEventListener('click',(e)=>{
     todo.appendChild(newest)
     
     text.value=''
+    const newbtn = document.createElement('button');
+    newbtn.textContent = 'Remove'; 
+    newbtn.style.marginLeft = '10px'; 
+    newbtn.addEventListener('click', () => {
+        newest.remove(); 
+        newbtn.remove(); 
+    });
+
+    
+    newest.appendChild(newbtn);
 
 })
 
